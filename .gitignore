@@ -1,0 +1,30 @@
+.DS_Store
+.idea/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+huggingface/
+*.arrow
+
+# Data is downloaded separately; keep only its documentation.
+data/*
+!data/README.md
+
+# Model checkpoints are large and reproducible.
+models/
+checkpoints/
+*.safetensors
+*.bin
+
+# Training and experiment outputs.
+results/*
+!results/model_results.csv
+!results/classification_reports.csv
+wandb/
+runs/
+logs/
+

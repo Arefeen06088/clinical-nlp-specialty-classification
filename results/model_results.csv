@@ -1,0 +1,5 @@
+Model,Input,Accuracy,Macro_F1
+TF-IDF + Logistic Regression,Full clinical text,0.898989898989899,0.8970360846216977
+NER-only + TF-IDF + Logistic Regression,Biomedical entities only,0.8417508417508418,0.8337768750939292
+Full Text + NER + TF-IDF + Logistic Regression,Full text + biomedical entities,0.8956228956228957,0.8948161163969682
+BioClinicalBERT,Full clinical text,0.909091,0.910961
